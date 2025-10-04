@@ -1,1 +1,16 @@
 /* Add CSS Styling */
+
+.bg,
+.bg-and-color {
+  font-size: 28px;
+  font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+.bg-and-color {
+  color: white;
+  background-color: #000000;
+}
+
+.bg {
+  background-color: #ffff00;
+}
