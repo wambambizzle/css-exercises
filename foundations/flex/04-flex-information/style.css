@@ -1,5 +1,5 @@
 body {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 
 img {
@@ -23,4 +23,51 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+/* My solution */
+
+/* .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  display: flex;
+  align-self: center;
+  margin-bottom: 18px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 200px;
+  text-align: center;
+  align-items: center;
+} */
+
+/* Better Solution.. */
+
+body {
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 32px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.details {
+  max-width: 200px;
 }
