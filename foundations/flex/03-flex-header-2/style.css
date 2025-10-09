@@ -45,4 +45,52 @@ a {
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* My Solution */
+
+/* .header {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+}
+
+.left-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.right-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.links {
+  display: flex;
+  gap: 16px;
+} */
+
+/* Much cleaner Solution - lol */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
+.left-header, .right-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
